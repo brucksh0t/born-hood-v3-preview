@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#030304">
+<title>Astrology — Born Hood</title><meta property="og:type" content="website"><meta property="og:site_name" content="Born Hood"><meta property="og:title" content="Astrology — Born Hood"><meta property="og:description" content="A cinematic, scroll-driven Born Hood Astrology collection concept."><meta property="og:image" content="https://brucksh0t.github.io/born-hood-v3-preview/assets/v3/og.jpg"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:image" content="https://brucksh0t.github.io/born-hood-v3-preview/assets/v3/og.jpg"><meta name="robots" content="noindex"><link rel="icon" href="assets/store-logo.jpg"><link rel="apple-touch-icon" href="assets/store-logo.jpg"><meta name="description" content="A cinematic, scroll-driven Born Hood Astrology collection concept.">
+<link rel="preload" href="assets/astrology/celestial-poster.jpg" as="image" fetchpriority="high"><link rel="preload" href="assets/CormorantGaramond.ttf" as="font" type="font/ttf" crossorigin>
+<link rel="stylesheet" href="astrology.css"><link rel="stylesheet" href="shell.css"><link rel="stylesheet" href="catalog.css"><script type="module" src="shell.js"></script><script defer src="vendor/gsap.min.js"></script><script defer src="vendor/ScrollTrigger.min.js"></script><script type="module" src="astrology.js"></script>
+<link rel="stylesheet" href="unity.css"><link rel="stylesheet" href="v3.css"></head>
+<body>
+<a class="skip-link" href="#pieces">Skip to products</a>
+<header class="astro-header">
+ <nav class="nav-left" aria-label="Main navigation"><a href="index.html">Home</a><a href="#top" aria-current="page">Collections</a></nav>
+ <a class="crest" href="index.html" aria-label="Born Hood home"><span class="crest-art" role="img" aria-label="Born Hood crown crest"></span></a>
+ <nav class="nav-right" aria-label="Page navigation"><a href="#story">The story</a><a href="#orbit">The zodiac</a><button class="motion-control" type="button" aria-pressed="false" aria-label="Pause motion"><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M6 4v12M14 4v12"/></svg></button></nav>
+</header>
+<main>
+ <section class="film-runway" id="top" aria-label="Astrology collection film">
+  <div class="film-stage">
+   <div class="film-media"><img class="film-poster" src="assets/astrology/celestial-poster.jpg" width="1248" height="704" alt="A winged stone figure beneath a celestial wheel, crimson eclipse and moving constellations"><video id="celestial-film" muted playsinline preload="auto" poster="assets/astrology/celestial-poster.jpg" aria-hidden="true" src="assets/astrology/celestial-event-scrub.mp4"></video></div>
+   <div class="film-shade" aria-hidden="true"></div><canvas id="celestial-canvas" aria-hidden="true"></canvas>
+   <div class="hero-copy">
+    <h1>Astrology</h1><p class="hero-line">Destiny written. Legacy worn.</p>
+    <p class="hero-description">The universe speaks in symbols.<br>A story of identity, fate, and the energy<br>that moves through us.</p>
+    <div class="hero-actions"><a class="button button-red" href="#pieces">Shop the collection <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12h16m-6-6 6 6-6 6"/></svg></a><a class="button button-outline" href="#orbit">Find your orbit</a></div>
+   </div>
+   <div class="film-chapter chapter-one" id="story"><span class="eyebrow">01 / The story</span><h2>Written<br>in the <em>stars.</em></h2><p>Ancient symbols. A modern expression.<br>A connection between who you are<br>and the world you carry with you.</p></div>
+   <div class="film-chapter chapter-two"><span class="eyebrow">02 / Your universe</span><h2>Born under<br>the same <em>sky.</em></h2><p>Your path is yours to define.<br>Your story is yours to wear.</p><a class="text-link" href="#orbit">Discover your sign <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12h16m-6-6 6 6-6 6"/></svg></a></div>
+   <div class="film-side-label" aria-hidden="true">Born Hood / Astrology collection</div>
+   <div class="film-footer"><span class="scroll-prompt">Scroll to unfold <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v18m-6-6 6 6 6-6"/></svg></span><span class="film-counter"><b id="chapter-current">01</b><span class="progress-track"><i></i></span>03</span></div>
+  </div>
+ </section>
+ <section class="meaning-strip" aria-label="Collection themes"><div><span class="theme-symbol" aria-hidden="true">✧</span><span>Identity<small>A mark that is yours.</small></span></div><div><span class="theme-symbol" aria-hidden="true">☾</span><span>Expression<small>A language without words.</small></span></div><div><span class="theme-symbol" aria-hidden="true">✦</span><span>Connection<small>Your world. Your orbit.</small></span></div></section>
+<section class="pieces" id="pieces" aria-labelledby="pieces-title"><header class="pieces-head"><div><span class="eyebrow">The collection / Born Hood</span><h2 id="pieces-title">Wear your <em>universe.</em></h2></div><p>Celestial artwork. Everyday expression.<br>Explore the Astrology collection.</p></header><div class="product-grid catalog-grid" id="astrology-products" aria-label="Astrology products"></div><div class="pieces-foot"><span>Born Hood Clothing Astrology Collection</span><a class="text-link" href="#orbit">Find your sign ↓</a></div></section> <section class="orbit-runway" id="orbit" aria-labelledby="orbit-title">
+  <div class="orbit-stage"><canvas id="orbit-canvas" aria-hidden="true"></canvas><div class="orbit-head"><span class="eyebrow">03 / The zodiac</span><h2 id="orbit-title">Find your <em>orbit.</em></h2><p>Twelve signs. A world of expression.</p></div><div class="sign-readout" aria-live="polite" aria-atomic="true"><span class="sign-glyph" id="sign-glyph">♈</span><h3 id="sign-name">Aries</h3><p id="sign-element">Fire / The spark</p></div><div class="sign-selector" role="group" aria-label="Explore the zodiac signs"></div><div class="orbit-foot"><span>Drag your story out of the ordinary.</span><a href="#closing">Keep exploring <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v18m-6-6 6 6 6-6"/></svg></a></div></div>
+ </section>
+ <section class="closing" id="closing"><div class="closing-orbit" aria-hidden="true"></div><span class="eyebrow">Align with your own story</span><h2>More than fashion.<br><em>A universe of expression.</em></h2><p>Step into your world. Wear it your way.</p><a class="button button-red" href="index.html">Explore Born Hood <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12h16m-6-6 6 6-6 6"/></svg></a></section>
+</main>
+<footer class="astro-footer"><a class="footer-brand" href="index.html" aria-label="Born Hood home">Born Hood</a><nav aria-label="Footer navigation"><a href="index.html">Home</a><a href="#top">Astrology</a><a href="#story">The story</a><a href="#orbit">The zodiac</a></nav><span>Born Hood · Astrology motion concept</span><a href="#top" class="back-top">Back to the stars ↑</a></footer>
+<noscript><style>.film-runway,.orbit-runway{height:auto}.film-stage,.orbit-stage{position:relative}.film-chapter{display:none}.hero-copy h1{opacity:1}.sign-readout{display:none}</style></noscript>
+</body></html>
+
+
+
+
+
+
+
+

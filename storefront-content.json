@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "home": {
+    "headline": "Wear your roots.",
+    "collectionTitle": "The collection.",
+    "collectionDescription": "Original Born Hood pieces.\nChoose your fit. Make it yours.",
+    "collectionIntroTitle": "Astrology.",
+    "collectionIntroDescription": "Explore the Astrology collection.",
+    "featuredProductIds": [
+      "signature-premium-hoodie",
+      "signature-crown-tee",
+      "signature-snapback",
+      "street-212",
+      "samurai-46",
+      "crown-227"
+    ]
+  },
+  "astrology": {
+    "tagline": "Destiny written. Legacy worn.",
+    "description": "The universe speaks in symbols.\nA story of identity, fate, and the energy\nthat moves through us."
+  },
+  "shop": {
+    "title": "Find your expression.",
+    "intro": "Rooted in the streets.\nWorn your own way."
+  },
+  "footer": {
+    "note": "Born Hood / Independent expression"
+  }
+}
